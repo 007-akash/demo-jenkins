@@ -1,0 +1,57 @@
+# Java and Spring Boot specific files
+target/
+*.class
+*.jar
+*.war
+*.ear
+.metadata/
+
+
+# Gradle specific files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle
+build/
+gradle-app.setting
+
+# STS (Spring Tool Suite) specific files
+.springBeans
+.springBeans/
+
+# Intellij IDEA specific files
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+bin/
+target/
+*.tmp
+*.bak
+*.swp
+
+# VS Code specific files
+.vscode/
+.history/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Application specific files
+.env
