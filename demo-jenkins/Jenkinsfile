@@ -13,8 +13,10 @@ pipeline {
  stage('Test') { 
  steps { 
   dir('demo-jenkins') {
+    withMaven(maven : 'M2_HOME') { 
  bat 'mvn test' 
  } 
+  }
  }
  
  } 
