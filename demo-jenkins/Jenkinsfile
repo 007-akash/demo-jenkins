@@ -3,11 +3,13 @@ pipeline {
  stages { 
  stage ('Compile Stage') { 
  steps { 
+  dir('demo-jenkins') {
  withMaven(maven : 'M2_HOME') { 
  bat 'mvn clean compile' 
  } 
  } 
  } 
+ }
  stage('Test') { 
  steps { 
  bat 'mvn test' 
